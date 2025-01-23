@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(assets/bg.jpg);
+}
+
+.wrapper{
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 100vh;
+}
+
+nav{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav #logo{
+    margin: 0px 200px;
+}
+
+nav #btn{
+    width: 400px;
+}
+
+nav .sign-btn{
+    height: 35px;
+    margin: 5px;
+    padding: 5px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+nav .sign-btn:hover{
+    background-color: rgb(245, 64, 64);
+    cursor: pointer;
+}
+
+
+section{
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section h1{
+    color: white;
+    font-size: 55px;
+    margin: 10px;
+}
+
+section .para{
+    color: white;
+    font-size: 1.7rem;
+    margin: 10px;
+}
